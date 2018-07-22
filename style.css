@@ -1,0 +1,46 @@
+body header h2{
+	text-align: center;
+	font-size: 40px;
+}
+
+body {
+	background: linear-gradient(to right, white, rgb(86,185,250));
+}
+
+.pics {
+	transition: transform .2s;
+}
+
+.picss{
+	display: flex;
+}
+
+.pics:active {
+	transform-origin: left;
+	transform: scale(4);
+}
+
+#left_col {
+	height: 768px;
+	float: left;
+	color: purple;
+	list-style-type: none;
+	margin: 0px 100px 0px 0px;
+}
+
+#right_col {
+	color: blue;
+	width: 500px;
+	line-height: 0.9;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+li: active {
+	
+}
